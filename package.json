@@ -14,9 +14,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-gh-pages": "sh ./build-gh-pages.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://chinwobble.github.io/pl-static-content",
   "eslintConfig": {
     "extends": [
       "react-app",
