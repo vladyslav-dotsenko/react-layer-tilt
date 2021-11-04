@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://chinwobble.github.io/pl-static-content",
+  "homepage": "https://vladyslav-dotsenko.github.io/react-layer-tilt",
   "eslintConfig": {
     "extends": [
       "react-app",
