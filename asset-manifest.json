@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-layer-tilt/static/css/main.36e8b9d0.chunk.css",
+    "main.js": "/react-layer-tilt/static/js/main.1374e59e.chunk.js",
+    "main.js.map": "/react-layer-tilt/static/js/main.1374e59e.chunk.js.map",
+    "runtime-main.js": "/react-layer-tilt/static/js/runtime-main.b4ebf5db.js",
+    "runtime-main.js.map": "/react-layer-tilt/static/js/runtime-main.b4ebf5db.js.map",
+    "static/js/2.baa22848.chunk.js": "/react-layer-tilt/static/js/2.baa22848.chunk.js",
+    "static/js/2.baa22848.chunk.js.map": "/react-layer-tilt/static/js/2.baa22848.chunk.js.map",
+    "static/js/3.3e70adba.chunk.js": "/react-layer-tilt/static/js/3.3e70adba.chunk.js",
+    "static/js/3.3e70adba.chunk.js.map": "/react-layer-tilt/static/js/3.3e70adba.chunk.js.map",
+    "index.html": "/react-layer-tilt/index.html",
+    "static/css/main.36e8b9d0.chunk.css.map": "/react-layer-tilt/static/css/main.36e8b9d0.chunk.css.map",
+    "static/js/2.baa22848.chunk.js.LICENSE.txt": "/react-layer-tilt/static/js/2.baa22848.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4ebf5db.js",
+    "static/js/2.baa22848.chunk.js",
+    "static/css/main.36e8b9d0.chunk.css",
+    "static/js/main.1374e59e.chunk.js"
+  ]
+}
