@@ -1,6 +1,6 @@
 # React Layer Tilt
 
-React components for creating tilting layers visual effect. [Check live demo]() to see how it looks.
+React components for creating tilting layers visual effect. [Check live demo](https://vladyslav-dotsenko.github.io/react-layer-tilt/) to see how it looks.
 
 ## Available Scripts
 
