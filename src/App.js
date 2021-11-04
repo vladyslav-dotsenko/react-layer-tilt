@@ -1,23 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react'
 
-function App() {
+import * as deviceOrientationDriver from './lib/deviceOrientationDriver'
+import Demo from './Demo'
+
+const App = () => {
+  const [isInitialized, setIsInitialized] = useState(false)
+
+  const startButtonStyles = {
+    cursor: 'pointer',
+    height: '100vh',
+    width: '100vw',
+    fontSize: '24pt',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textDecoration: 'underline',
+  }
+
+  const handleStart = deviceOrientationDriver.carryAPIAllowed(
+    () => setIsInitialized(true),
+  )
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {isInitialized
+        ? <Demo />
+        : (
+          <div
+            style={startButtonStyles}
+            onClick={handleStart}
+          >
+            <span>Start</span>
+          </div>
+        )
+      }
     </div>
   );
 }
