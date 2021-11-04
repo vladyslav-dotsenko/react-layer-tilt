@@ -7,4 +7,6 @@ yarn build &&
 rm -rf LICENSE node_modules package.json public README.md src yarn.lock build-gh-pages.sh &&
 mv build/* ./ &&
 rm -rf build &&
-git push --force -u origin gh-pages &&
+git add . &&
+git commit -a -m 'release. gh-pages build' &&
+git push --force -u origin gh-pages
