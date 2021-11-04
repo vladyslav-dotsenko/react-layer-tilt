@@ -4,7 +4,7 @@ git branch gh-pages &&
 git checkout gh-pages &&
 yarn install &&
 yarn build &&
-rm -rf LICENSE node_modules package.json public README.md src yarn.lock build-gh-pages.sh &&
+rm -rf node_modules public README.md src yarn.lock build-gh-pages.sh &&
 mv build/* ./ &&
 rm -rf build &&
 git add . &&
